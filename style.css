@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  background-color: hsl(240, 75%, 98%);
+  color: #40514E;
+}
+
+
+.navbar {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+  .navbar-brand {
+    flex: 1;
+    margin-left: 40px;
+  }
+  .navbar-nav {
+    margin-right: 20px;
+  }
+    .navbar-nav ul {
+      display: inline-block;
+      padding: 20px;
+    }
+      .navbar-nav ul li a {
+        color: black;
+      }
+
+
+.top-container {
+  display: flex;
+}
+  /* Context Tag Applies to all Containers */
+  .context {
+    width: 100%;
+    margin: 180px 220px 0 60px;
+  }
+    .context h1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+    color: black;
+    }
+    .context p {
+      font-size: 1.125rem;
+    }
+  .get-started {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+    .btn-input {
+      border-width: 2px;
+      border-radius: 4px;
+      width: 50%;
+      padding: 12px 20px;
+
+    }
+    .btn-submit {
+      border-radius: 4px;
+      width: 25%;
+      padding: 12px 20px;
+      background-color: hsl(224, 93%, 58%);
+      color: white;
+      font-size: 0.75rem;
+      border-color: transparent;
+    }
+  .illustration-1 {
+    padding-top: 100px;
+  }
+    .illustration-1 img {
+      max-width: 100%;
+    }
+
+.middle-container {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+  .fylo-link {
+    color: hsl(170, 45%, 43%);
+    text-decoration: underline;
+  }
+  .quote-container {
+    margin: 20px 400px 0 20px;
+    width: 30%;
+    height: 50%;
+  }
+    .quote-container footer {
+      display: flex;
+    }
+    blockquote {
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 3px 6px 30px -6px rgba(0,0,0,0.5);
+    }
+    blockquote #quote {
+      font-size: 0.875rem;
+      margin-bottom: 20px;
+    }
+    .quote-container .avatar {
+      border-radius: 50%;
+      width: 40%;
+    }
+      blockquote #quote-occupation {
+        font-size: 0.875rem;
+        font-weight: 700;
+        padding: 20px 0 0 10px;
+      }
+      blockquote span {
+        font-size: 0.625rem;
+      }
+  .illustration-2 {
+    margin-top: 120px;
+  }
+    .illustration-2 img {
+      max-width: 100%;
+    }
+
+
+
+
+.bottom-container {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  padding-bottom: 60px;
+}
+  .context-access {
+    margin: 80px 0 80px 60px;
+    max-width: 640px;
+    height: 100px;
+    color:hsl(0, 0%, 75%)
+  }
+    .context-access h1 {
+      color: white;
+    }
+  .get-started-2 {
+    width: 100%;
+    margin-left: 400px;
+    padding-top: 80px;
+  }
+    .btn-input-secondary {
+      border-width: 2px;
+      border-radius: 4px;
+      width: 50%;
+      padding: 12px 20px;
+      border-color: transparent;
+    }
+    .btn-submit-secondary {
+      border-radius: 4px;
+      width: 35%;
+      padding: 12px 20px;
+      background-color: hsl(224, 93%, 58%);
+      color: white;
+      font-size: 0.75rem;
+      margin-top: 10px;
+      border-color: transparent;
+    }
+
+.container {
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  color: white;
+}
+  .contact-info {
+    margin: 80px;
+  }
+  .contact-info ul li {
+    margin-top: 10px;
+  }
+    .contact-info ul li a {
+      color: white;
+    }
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+   div {
+    flex-wrap: wrap;
+   }
+   .navbar-brand {
+     margin-left: 0;
+     text-align: center;
+   }
+   .navbar-nav {
+     width: 100%;
+     text-align: center;
+   }
+   .context {
+     text-align: center;
+     width: 100%;
+     margin: 0 auto;
+   }
+   .quote-container {
+     margin: 20px auto;
+     width: 80%;
+   }
+   .bottom-container {
+    padding: 30px 0 30px 0;
+   }
+   .bottom-container .context-access {
+     text-align: center;
+     margin: 0 auto;
+   }
+   .get-started-2 {
+     margin-left: 0;
+     padding-top: 20px;
+   }
+   .btn-submit-secondary {
+     width: 50%;
+   }
+   form {
+     margin-left: 120px;
+   }
+   .get-started form {
+     margin: 0;
+   }
+   .contact-info {
+     margin: 20px 10px 10px 80px;
+   }
+  }
